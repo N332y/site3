@@ -18,7 +18,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
 }
 body{
     font-family: 'SFProDisplay';
@@ -37,6 +36,7 @@ header{
     background-color: white;
     border-bottom: 1px solid #161616;
 }
+
 .header_wrapper{
     display: flex;
     align-items: center;
@@ -64,6 +64,7 @@ nav{
 }
 .header_con1 li{
     padding-right: 21px;
+    list-style: none;
 }
 .header_con1 li:last-child{
     padding-right: 0;
@@ -83,6 +84,7 @@ nav{
     display: flex;
     align-items: center;
     padding-right: 78px;
+    list-style: none;
 }
 .header_l{
     font-weight: 400;
@@ -211,4 +213,208 @@ nav{
     padding-top: 182px;
     width: 398px;
     margin-left: 600px;
+}
+
+/* Section2 */
+.section2{
+
+}
+.section2_wrapper{
+    margin-left: 200px;
+}
+.sec2_text1{
+    font-size: 48px;
+    font-weight: 500;
+}
+.container_sec2_text{
+    display: flex;
+}
+.arrow{
+    border: 1px solid black;
+    padding: 20px 20px 20px 20px;
+}
+.sec2_text2 p{
+    font-size: 18px;
+    font-weight: 500;
+    width: 225.5px;
+    margin-left: 30px;
+    margin-right: 83px;
+}
+.sec2_text3 p{
+    font-size: 18px;
+    font-weight: 500;
+    width: 283.36px;
+    margin-left: 30px;
+}
+.sec2_text2{
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+}
+.sec2_text3{
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+}
+
+/* Section3 */
+.section3{
+    padding-top: 150px;
+}
+.section3_wrapper{
+    margin-left: 610px;
+}
+.cont_sec3_text{
+    width: 400.64px;
+}
+.sec3_text1{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 57px;
+}
+.sec3_text2{
+    padding: 40px 0 40px 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.sec3_text3{
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid black;
+    padding: 21.5px 137.25px 21.5px 137.25px;
+    text-align: center;  
+    color: black;  
+}
+/* Section4 */
+.section4{
+    margin-top: 143px;
+}
+.section4_wrapper{
+    margin-left: 200px;
+}
+.sec4_text1{
+    font-size: 64px;
+    font-weight: 500;
+}
+.sec4_text2{
+    display: flex;
+    padding-top: 70px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.model_home{
+    color: black;
+    margin-right: 30px;
+}
+.model_home a{
+    text-decoration: none;
+}
+.sec4_button1{
+    padding-top: 70px;
+}
+.sec4_tex3{
+    width: 400px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid black;
+    padding: 21.5px 136px 21.5px 136px;
+}
+/* Section5 */
+.section5{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    margin-top: 150px;
+    width: 998.72px;
+    margin-left: 350px;
+}
+.model_home_15_text1{
+    font-size: 64px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+.img_model_home_15_1{
+    padding-bottom: 150px;
+}
+.img_model_home_15_2{
+    padding-bottom: 20px;
+}
+.img_model_home_15_3{
+    padding-bottom: 150px;
+}
+.sec5_cont_imgs{
+    flex-direction: column;
+}
+.cont_left-right{
+    display: flex;
+}
+.sec5_ul_li{
+    padding-top: 100px;
+    margin-left: 20px;
+}
+.sec5_ul_li li{
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.sec5_button1{
+    padding-top: 45px;
+}
+.sec5_text3{
+    height: 60px;
+    width: 400px;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center; 
+    color: black;  
+}
+.img_model_home_15_4{
+    height: 700px;
+    width: 700px;
+}
+.sec5_text4{
+    height: 84px;
+    width: 376px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 200px;
+    padding-top: 140px;
+    padding-bottom: 170px;
+}
+.sec5_cont_imgs1{
+    flex-direction: column;
+    justify-content: center;
+}
+.img_model_home_15_6{
+    padding-bottom: 20px;
+    margin-left: 200px;
+}
+.img_model_home_15_7{
+    margin-left: 200px;
+}
+/* Section6 */
+.sec6_arrows{
+    padding: 70px 0 0 570px;
+}
+.sec6_arrows_border{
+    border: 1px solid black;
+    padding: 20px 20px 20px 20px;
+    margin-right: 80px;
+}
+.sec6_text1{
+    margin-top: 150px;
+    margin-left: 570px;
+    width: 600px;
+    height: 171px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
 }
