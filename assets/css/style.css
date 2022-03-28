@@ -409,12 +409,127 @@ nav{
     padding: 20px 20px 20px 20px;
     margin-right: 80px;
 }
+.sec6_cont_text{
+    margin-left: 570px;
+}
 .sec6_text1{
     margin-top: 150px;
-    margin-left: 570px;
     width: 600px;
     height: 171px;
     font-weight: 600;
     font-size: 48px;
     line-height: 57px;
+}
+.sec6_text2{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 40px;
+    width: 400px;
+    line-height: 21px;
+    height: 42px;
+}
+.sec6_imgs_cont{
+    display: flex;
+    width: 312px;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+/* Footer */
+footer{
+    background-color: #161616;
+}
+.sec7_wrapper{
+    display: flex;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+.logo_footer{
+    margin-top: 65px;
+}
+.sec7_text1{
+    width: 400px;
+    height: 51px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 46px;
+    margin-left: 55px;
+}
+.sec7_line_cont{
+    display: flex;
+}
+.line{
+    width: 32px;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin-right: 17px;
+    margin-top: 8px;
+}
+.sec7_text2{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.sec7_text3{
+    margin-top: 17px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.sec7_text4{
+    margin-top: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+.sec7_text5{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.sec7_text6{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.sec7_text7{
+    margin-top: 17px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.sec7_text8{
+    margin-top: 17px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.sec7_line_cont{
+    margin-top: 70px;
+}
+.sec7_text_line_cont{
+    font-weight: 400;
+    font-size: 14px;
+}
+.sec7_cont2{
+    margin-right: 100px;
+}
+.sec7_footer-bottom_text_cont{
+    display: flex;
+    color: #FFFFFF;
+    margin-top: 17px;
+}
+.sec7_footer-bottom_text1{
+    margin-right: 250px;
+}
+.sec7_footer-bottom_text2{
+    margin-right: 40px
+}
+.sec7_footer-bottom_text2:hover{
+    color: orange;
+}
+.sec6_imgs:hover{
+    height: 50px;
+    width: 50px;
+}
+.sec6_arrows_border:hover{
+    border: 1px solid orange;
 }
