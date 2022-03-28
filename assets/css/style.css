@@ -434,7 +434,7 @@ nav{
     margin-top: 50px;
     justify-content: space-between;
     margin-bottom: 150px;
-    width: 100%;
+    width: 500px;
     height: 50px;
 }
 /* Footer */
@@ -546,4 +546,7 @@ footer{
 }
 .sec3_text3:hover{
     color: orange;
+}
+.sec7_footer-bottom_text_cont{
+    padding-bottom: 30px;
 }
